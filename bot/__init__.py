@@ -646,11 +646,11 @@ if len(BASE_URL) == 0:
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-   UPSTREAM_REPO = 'https://github.com/SN-Abdullah-Al-Noman/Atrocious_Mirror'
+   UPSTREAM_REPO = 'https://github.com/YouGotMe01/Atrocious_Mirror'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
-    UPSTREAM_BRANCH = 'master'
+    UPSTREAM_BRANCH = 'old-sync'
 
 SAFE_MODE = environ.get('SAFE_MODE', '')
 if len(SAFE_MODE) == 0:
